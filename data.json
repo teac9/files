@@ -1,0 +1,33 @@
+// data.js
+const SITE_CONFIG = {
+    storeName: "极客数码中心",
+    storeIcon: "fa-solid fa-microchip",
+    storeIntro: "为您提供最前沿的硬件设备与技术咨询服务，正品保障，售后无忧。",
+    
+    // 联系方式
+    email: "3347379894@qq.com",
+    wechatQR: "https://placehold.co/200x200?text=WeChat+QR", // 替换为你的微信二维码URL
+    qqQR: "https://placehold.co/200x200?text=QQ+QR",      // 替换为你的QQ二维码URL
+
+    // 最新动态
+    activities: [
+        { title: "年货节大促", content: "全场电子产品满1999减200。" },
+        { title: "新品首发", content: "RTX 5090 系列现已开放预订。" }
+    ],
+    announcements: [
+        { title: "春节放假通知", content: "1月20日至2月5日期间只接单不发货。" },
+        { title: "防诈骗提醒", content: "请认准官方咨询渠道，勿私下转账。" }
+    ],
+
+    // 商品数据
+    products: [
+        { id: 1, category: "显卡", name: "RTX 4090 24G", price: "12999", intro: "旗舰级性能，生产力与游戏的极致选择。" },
+        { id: 2, category: "处理器", name: "Intel i9-14900K", price: "4299", intro: "24核心32线程，极速睿频体验。" },
+        { id: 3, category: "外设", name: "机械键盘 K70", price: "899", intro: "RGB背光，樱桃原厂红轴，手感极佳。" },
+        { id: 4, category: "显示器", name: "4K 144Hz 屏幕", price: "2599", intro: "IPS面板，1ms响应，色彩精准。" },
+        { id: 5, category: "存储", name: "2TB NVMe SSD", price: "999", intro: "读写速度高达7000MB/s。" }
+    ],
+
+    // 分类选项
+    categories: ["全部", "显卡", "处理器", "外设", "显示器", "存储"]
+};
