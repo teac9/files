@@ -1,26 +1,70 @@
 {
-    "storeName": "极客数码中心",
-    "storeIcon": "fa-solid fa-microchip",
-    "storeIntro": "为您提供最前沿的硬件设备与技术咨询服务...",
-    "wechatQR": "https://your-domain.com/wechat.jpg",
-    "qqQR": "https://your-domain.com/qq.jpg",
-    "categories": ["全部", "显卡", "处理器", "外设"],
-    "products": [
-        { 
-            "id": 1, 
-            "category": "显卡", 
-            "name": "RTX 4090 24G", 
-            "price": "12999", 
-            "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=500",
-            "intro": "旗舰级性能，生产力与游戏的极致选择。" 
-        },
-        { 
-            "id": 2, 
-            "category": "处理器", 
-            "name": "Intel i9-14900K", 
-            "price": "4299", 
-            "image": "https://images.unsplash.com/photo-1591405351990-4726e331f141?w=500",
-            "intro": "24核心32线程，极速睿频体验。" 
-        }
-    ]
+  "storeName": "极客数码中心",
+  "storeIcon": "fa-solid fa-microchip",
+  "storeIntro": "为您提供最前沿的硬件设备与技术咨询服务，正品保障，售后无忧。",
+  "wechatQR": "https://placehold.co/200x200?text=WeChat+QR",
+  "qqQR": "https://placehold.co/200x200?text=QQ+QR",
+  
+  "//": "最新活动板块：展示在首页左侧第一栏",
+  "activities": [
+    {
+      "title": "年货节限时特惠",
+      "content": "全场显卡满 5000 减 300，下单即送精美鼠标垫。"
+    },
+    {
+      "title": "老客户回馈计划",
+      "content": "凭旧订单截图联系客服，可领取 50 元装机无门槛代金券。"
+    }
+  ],
+
+  "//": "最新公告板块：展示在首页中间第二栏",
+  "announcements": [
+    {
+      "title": "APP 1.0.5 版本发布",
+      "content": "现已支持实时云端同步，图片展示更清晰，推荐所有用户更新。"
+    },
+    {
+      "title": "春节期间物流安排",
+      "content": "1月25日起顺丰停止揽收，期间订单统一在初八补发。"
+    }
+  ],
+
+  "//": "商品分类：用于首页顶部胶囊按钮过滤",
+  "categories": ["全部", "显卡", "处理器", "外设", "显示器", "存储"],
+
+  "//": "商品列表：包含图片地址，建议使用 HTTPS 的绝对路径",
+  "products": [
+    {
+      "id": 1,
+      "category": "显卡",
+      "name": "NVIDIA RTX 4090 24G",
+      "price": "12999",
+      "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=500",
+      "intro": "目前顶级的消费级显卡，支持 DLSS 3.5，是追求极致游戏体验和生产力的不二之选。"
+    },
+    {
+      "id": 2,
+      "category": "处理器",
+      "name": "Intel Core i9-14900K",
+      "price": "4299",
+      "image": "https://images.unsplash.com/photo-1591405351990-4726e331f141?w=500",
+      "intro": "24核心32线程，极速睿频，适合深度学习与超大型游戏运行。"
+    },
+    {
+      "id": 3,
+      "category": "外设",
+      "name": "罗技 G Pro X Superlight",
+      "price": "899",
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=500",
+      "intro": "超轻量化设计，职业选手同款，无线无延迟连接。"
+    },
+    {
+      "id": 4,
+      "category": "显示器",
+      "name": "4K 144Hz 电竞屏",
+      "price": "2599",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500",
+      "intro": "IPS面板，色彩极其精准，无论是办公设计还是游戏都能完美胜任。"
+    }
+  ]
 }
