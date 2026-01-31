@@ -1,5 +1,5 @@
 {
-  "storeName": "私人基电竞SE客户端",
+  "storeName": "私人基电竞SE",
   "storeIcon": "fa-solid fa-store",
   "storeIntro": "专业陪玩 · 护航 · 跑刀 · 代打 · 纯绿靠谱 · 价格透明",
   "wechatQR": "https://img.scdn.io/i/697dd18ecc09e_1769853326.webp",
@@ -8,63 +8,39 @@
   "//": "最新活动板块：展示在首页左侧第一栏",
   "activities": [
     {
-      "title": "年货节限时特惠",
-      "content": "全场显卡满 5000 减 300，下单即送精美鼠标垫。"
+      "title": "新春特惠",
+      "content": "2026年2月15日至23日，全场商品享受七五折特惠。"
     },
     {
       "title": "老客户回馈计划",
-      "content": "凭旧订单截图联系客服，可领取 50 元装机无门槛代金券。"
+      "content": "凭旧订单截图联系客服，可领取一张免单券。"
     }
   ],
 
   "//": "最新公告板块：展示在首页中间第二栏",
   "announcements": [
     {
-      "title": "APP 1.0.5 版本发布",
-      "content": "现已支持实时云端同步，图片展示更清晰，推荐所有用户更新。"
+      "title": "APP 1.2.2 预览版发布",
+      "content": "现已支持实时云端同步，内容加载更流畅，欢迎下载体验，如有问题可以反馈给我们的客服。"
     },
     {
-      "title": "春节期间物流安排",
-      "content": "1月25日起顺丰停止揽收，期间订单统一在初八补发。"
+      "title": "春节期间发单安排",
+      "content": "春节期间正常营业，订单量较多可能导致打手接单速度慢，请耐心等待。"
     }
   ],
 
   "//": "商品分类：用于首页顶部胶囊按钮过滤",
-  "categories": ["全部", "显卡", "处理器", "外设", "显示器", "存储"],
+  "categories": ["全部", "三角洲行动", "使命召唤手游"],
 
   "//": "商品列表：包含图片地址，建议使用 HTTPS 的绝对路径",
   "products": [
     {
       "id": 1,
-      "category": "显卡",
-      "name": "NVIDIA RTX 4090 24G",
-      "price": "12999",
-      "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=500",
-      "intro": "目前顶级的消费级显卡，支持 DLSS 3.5，是追求极致游戏体验和生产力的不二之选。"
+      "category": "三角洲行动",
+      "name": "1元体验单",
+      "price": "1.00",
+      "image": "https://esaimg.cdn1.vip/i/697e072551854_1769867045.webp",
+      "intro": "三角洲行动一元体验单 | ！购前必看！本商品ID：1，如客服需要请您提供。 | *售前提醒*一元及以下单不包售后。 | -规格-：（1）普坝体验单#单护保底300000 【1元】 （2）机密体验单#双护保底100w【5元】"
     },
-    {
-      "id": 2,
-      "category": "处理器",
-      "name": "Intel Core i9-14900K",
-      "price": "4299",
-      "image": "https://images.unsplash.com/photo-1591405351990-4726e331f141?w=500",
-      "intro": "24核心32线程，极速睿频，适合深度学习与超大型游戏运行。"
-    },
-    {
-      "id": 3,
-      "category": "外设",
-      "name": "罗技 G Pro X Superlight",
-      "price": "899",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=500",
-      "intro": "超轻量化设计，职业选手同款，无线无延迟连接。"
-    },
-    {
-      "id": 4,
-      "category": "显示器",
-      "name": "4K 144Hz 电竞屏",
-      "price": "2599",
-      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500",
-      "intro": "IPS面板，色彩极其精准，无论是办公设计还是游戏都能完美胜任。"
-    }
   ]
 }
