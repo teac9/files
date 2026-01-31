@@ -1,9 +1,9 @@
 {
-  "storeName": "极客数码中心",
-  "storeIcon": "fa-solid fa-microchip",
-  "storeIntro": "为您提供最前沿的硬件设备与技术咨询服务，正品保障，售后无忧。",
-  "wechatQR": "https://placehold.co/200x200?text=WeChat+QR",
-  "qqQR": "https://placehold.co/200x200?text=QQ+QR",
+  "storeName": "私人基电竞",
+  "storeIcon": "fa-solid fa-gamepad",
+  "storeIntro": "专业陪玩 · 护航 · 跑刀 · 代打 · 纯绿靠谱 · 价格透明",
+  "wechatQR": "https://img.scdn.io/i/697dd18ecc09e_1769853326.webp",
+  "qqQR": "https://img.scdn.io/i/697dd18edff11_1769853326.webp",
   
   "//": "最新活动板块：展示在首页左侧第一栏",
   "activities": [
